@@ -1,0 +1,67 @@
+body{
+	background-image: url(../images/bg2.jpg); /*insert background*/
+	/*background-color: #4885ed;*/
+	background-size: cover;
+	/*for other browsers*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #0250A1;
+	background-repeat: no-repeat; /*mag expand yung bg*/
+	/*font-family: 'Roboto', sans-serif;*/ /*Fonta lang to*/
+	font-family: 'Charmonman', cursive;
+	height: 100vh;
+}
+h1{
+	font-size: 60px;
+	margin-bottom: 0;
+	/*background-color: rgba(51,51,51, 0.8);*/ /*off black (nagkaroon ng bg black)*/
+	text-transform: uppercase; /*CAPITALIZE*/
+	letter-spacing: 3px; /*SPaCING*/
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 5px;
+	color: #FF9200;
+}
+
+#me{ /*#me kasi id*/
+	height: 200px;
+	width: 200px;
+	border-radius: 50%; /*para maging bilog*/
+	border-width: 10px;
+	border-style: double;
+	border-color: #0250A1;
+	margin-top: 100px;
+}
+
+.bio{
+	width: 50%;
+	font-size: 15px;
+	line-height: 1.5; /*spacing*/
+	background-color: #9999;
+	/*rgba(*,*,*,*)red,green,blue,opacity*/
+	margin:0 auto; /*align center*/
+	border-radius: 4000px;
+	border-style: double;
+	border-color: #0250A1;
+	color: black;
+
+}
+.container{ /*para sa lahat*/
+	width: 100%;
+	margin:0 auto;
+	text-align: center; /*.container kasi class*/
+
+}
+.like{ /*.like kasi class*/
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border-style: dotted;
+	margin-top: 20px ;
+	margin-right: 20px;
+
+}
